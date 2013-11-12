@@ -41,6 +41,9 @@ activate :livereload
 # Add Bourbon library
 activate :bourbon
 
+# Add Bourbon Neat
+activate :neat
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
