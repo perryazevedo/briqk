@@ -1,0 +1,41 @@
+// ----- Colors ----- //
+
+// Base Colors
+$black: #000000;
+$white: #ffffff;
+$gold: #85754e;
+$gray: #cccccc;
+
+// Text Selection Colors
+// $color-selection-bg: #C5CE2A;
+// $color-selection: #ffffff;
+
+// Utility Colors
+// $color-error: #D43322;
+// $color-success: #017055;
+// $color-warning: #CA7B21;
+
+// ----- Fonts ----- //
+$font-serif: 'ITC Century W01 Book';
+$font-serif-italic: 'ITCCenturyW01-BookItali';
+$font-serif-light: 'ITC Century W01 Light';
+$font-serif-light-italic: 'ITCCenturyW01-LightItal';
+$font-serif-bold: 'ITC Century W01 Bold';
+$font-serif-bold-italic: 'ITCCenturyW01-BoldItali';
+$font-sans: 'NewsGothicBTW01-Roman';
+$font-sans-bold: 'News Gothic BT W01 Demi';
+$font-base: $font-serif;
+$font-monospace: Monaco;
+
+// ---- Type Settings ----- //
+$type-base-line-height: 1.5;
+
+// ----- Borders ----- //
+$base-radius: 4px;
+
+// ----- Box Shadows ----- //
+$box-shadow: 0 1px 1px rgba(#000, 0.2);
+
+// ----- Typography ----- //
+$base-font-size: 16px;
+$base-line-height: 1;

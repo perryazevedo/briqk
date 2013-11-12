@@ -1,6 +1,16 @@
 // Libraries
 @import "bourbon";
-@import "neat";
+// @import "neat";
 
-// Core styles
-@import "middleman"; // Default Middleman style
+// The Core
+@import "middleman";    // Default Middleman style
+@import "core/grid";    // The grid
+@import "core/config";  // Variables
+@import "core/mixins";  // Mixins
+@import "core/type";    // Typography
+@import "core/base";    // Base style
+
+// Pages
+
+
+// Modules

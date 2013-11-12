@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6, p {
+  font-family: $font-base;
+  // line-height: 1em;
+}
+
+h4, h5, h6 {
+  color: lighten($black, 50);
+  @include font-serif-italic;
+}
+
+h1 {
+  @include media($small)  {
+    font-size: em(20);
+  }
+  @include media($medium) {
+    font-size: em(28);
+  }
+  @include media($large)  {
+    font-size: em(47);
+  }
+  @include media($xlarge) {
+    font-size: em(64);
+  }
+}
+
+em {
+  @include font-serif-italic;
+}
